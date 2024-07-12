@@ -6,6 +6,8 @@ document.getElementById('formAsteriscos').addEventListener('submit', function(ev
     
     const resultTextElement = document.getElementById('resultText');
     resultTextElement.textContent = JSON.stringify(resultList);
+
+    document.getElementById('resultContainer').style.display = 'block';
 });
 
 

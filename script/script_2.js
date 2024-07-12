@@ -6,6 +6,8 @@ document.getElementById('arrayForm').addEventListener('submit', function(event) 
     
     const resultTextElement = document.getElementById('result');
     resultTextElement.textContent = JSON.stringify(pares);
+
+    document.getElementById('resultContainer').style.display = 'block';
 });
 
 function transformaEmArray() {

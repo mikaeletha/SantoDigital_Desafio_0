@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+nav {
+    background-color: #126e90;
+}
+.navbar-text {
+    margin-left: auto;
+    margin-right: 2%;
+}
+body {
+    background-color: #f8f9fa;
+    margin: 2%;
+}
